@@ -1,0 +1,36 @@
+{
+  "default_executable": null, 
+  "default_repository": {
+    "url": "/Users/maffia/testSumatra", 
+    "type": "sumatra.versioncontrol._git.GitRepository", 
+    "upstream": "https://github.com/fenz/testSumatra.git"
+  }, 
+  "name": "TestSumatra", 
+  "input_datastore": {
+    "root": "/", 
+    "type": "sumatra.datastore.filesystem.FileSystemDataStore"
+  }, 
+  "default_launch_mode": {
+    "working_directory": "/Users/maffia/testSumatra", 
+    "type": "sumatra.launch.SerialLaunchMode", 
+    "options": null
+  }, 
+  "record_store": {
+    "db_file": "/Users/maffia/testSumatra/.smt/records", 
+    "type": "sumatra.recordstore.django_store.DjangoRecordStore"
+  }, 
+  "plugins": [], 
+  "data_store": {
+    "root": "/Users/maffia/testSumatra/Data", 
+    "type": "sumatra.datastore.filesystem.FileSystemDataStore"
+  }, 
+  "on_changed": "error", 
+  "data_label": null, 
+  "default_main_file": null, 
+  "label_generator": "timestamp", 
+  "_most_recent": null, 
+  "sumatra_version": "0.7.2", 
+  "allow_command_line_parameters": true, 
+  "timestamp_format": "%Y%m%d-%H%M%S", 
+  "description": ""
+}
